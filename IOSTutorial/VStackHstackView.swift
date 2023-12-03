@@ -9,7 +9,9 @@ import SwiftUI
 
 struct VStackHstackView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+        
+        
         VStack{
             HStack{
                 Image(systemName: "globe")
@@ -35,6 +37,19 @@ struct VStackHstackView: View {
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
             }
+            
+            ProgressView(value: 5, total: 100).padding(20)
+            
+            
+            HStack{
+                Text("Completed")
+                Spacer()
+                
+                Text("Remaining...")
+            }.padding(20)
+            
+            Circle()
+                .strokeBorder(lineWidth: 24)
         }
         .padding()
     }

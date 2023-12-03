@@ -15,6 +15,15 @@
 		1D3D7F822B1C2AC300BA8D37 /* IOSTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F812B1C2AC300BA8D37 /* IOSTutorialTests.swift */; };
 		1D3D7F8C2B1C2AC300BA8D37 /* IOSTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F8B2B1C2AC300BA8D37 /* IOSTutorialUITests.swift */; };
 		1D3D7F8E2B1C2AC300BA8D37 /* IOSTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F8D2B1C2AC300BA8D37 /* IOSTutorialUITestsLaunchTests.swift */; };
+		1D3D7F9B2B1C335500BA8D37 /* VStackHstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F9A2B1C335500BA8D37 /* VStackHstackView.swift */; };
+		1D3D7F9D2B1C4A7200BA8D37 /* MusicPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */; };
+		1D3D7F9F2B1C50F000BA8D37 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */; };
+		1D3D7FA12B1C9E0300BA8D37 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */; };
+		1DD2EFCB2B1D297D00B7529D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCA2B1D297D00B7529D /* Theme.swift */; };
+		1DD2EFCD2B1D2A7500B7529D /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCC2B1D2A7500B7529D /* DailyScrum.swift */; };
+		1DD2EFCF2B1D31FF00B7529D /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCE2B1D31FF00B7529D /* TrailingIconLabelStyle.swift */; };
+		1DD2EFD12B1D359400B7529D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFD02B1D359400B7529D /* ScrumsView.swift */; };
+		1DD2EFD32B1D3E3700B7529D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFD22B1D3E3700B7529D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		1D3D7F872B1C2AC300BA8D37 /* IOSTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3D7F8B2B1C2AC300BA8D37 /* IOSTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTutorialUITests.swift; sourceTree = "<group>"; };
 		1D3D7F8D2B1C2AC300BA8D37 /* IOSTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D3D7F9A2B1C335500BA8D37 /* VStackHstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackHstackView.swift; sourceTree = "<group>"; };
+		1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayView.swift; sourceTree = "<group>"; };
+		1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1DD2EFCA2B1D297D00B7529D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1DD2EFCC2B1D2A7500B7529D /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		1DD2EFCE2B1D31FF00B7529D /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		1DD2EFD02B1D359400B7529D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		1DD2EFD22B1D3E3700B7529D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,19 @@
 		1D3D7F6C2B1C2AC100BA8D37 /* IOSTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1DD2EFC92B1D293000B7529D /* Models */,
 				1D3D7F6D2B1C2AC100BA8D37 /* IOSTutorialApp.swift */,
 				1D3D7F6F2B1C2AC100BA8D37 /* ContentView.swift */,
 				1D3D7F712B1C2AC100BA8D37 /* Item.swift */,
 				1D3D7F732B1C2AC200BA8D37 /* Assets.xcassets */,
 				1D3D7F752B1C2AC200BA8D37 /* IOSTutorial.entitlements */,
 				1D3D7F762B1C2AC200BA8D37 /* Preview Content */,
+				1D3D7F9A2B1C335500BA8D37 /* VStackHstackView.swift */,
+				1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */,
+				1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */,
+				1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */,
+				1DD2EFD02B1D359400B7529D /* ScrumsView.swift */,
+				1DD2EFD22B1D3E3700B7529D /* DetailView.swift */,
 			);
 			path = IOSTutorial;
 			sourceTree = "<group>";
@@ -130,6 +155,16 @@
 				1D3D7F8D2B1C2AC300BA8D37 /* IOSTutorialUITestsLaunchTests.swift */,
 			);
 			path = IOSTutorialUITests;
+			sourceTree = "<group>";
+		};
+		1DD2EFC92B1D293000B7529D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DD2EFCA2B1D297D00B7529D /* Theme.swift */,
+				1DD2EFCC2B1D2A7500B7529D /* DailyScrum.swift */,
+				1DD2EFCE2B1D31FF00B7529D /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3D7FA12B1C9E0300BA8D37 /* CardView.swift in Sources */,
+				1DD2EFD32B1D3E3700B7529D /* DetailView.swift in Sources */,
+				1DD2EFCB2B1D297D00B7529D /* Theme.swift in Sources */,
 				1D3D7F702B1C2AC100BA8D37 /* ContentView.swift in Sources */,
+				1DD2EFCF2B1D31FF00B7529D /* TrailingIconLabelStyle.swift in Sources */,
 				1D3D7F722B1C2AC100BA8D37 /* Item.swift in Sources */,
+				1DD2EFCD2B1D2A7500B7529D /* DailyScrum.swift in Sources */,
+				1D3D7F9B2B1C335500BA8D37 /* VStackHstackView.swift in Sources */,
+				1D3D7F9F2B1C50F000BA8D37 /* InventoryView.swift in Sources */,
+				1D3D7F9D2B1C4A7200BA8D37 /* MusicPlayView.swift in Sources */,
 				1D3D7F6E2B1C2AC100BA8D37 /* IOSTutorialApp.swift in Sources */,
+				1DD2EFD12B1D359400B7529D /* ScrumsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOSTutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = RX8774SU27;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -442,7 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = HubletOy.IOSTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -480,7 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = HubletOy.IOSTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

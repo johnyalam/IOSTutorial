@@ -25,7 +25,7 @@ struct IOSTutorialApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
         .modelContainer(sharedModelContainer)
     }
