@@ -1,2 +1,0 @@
-# IOSTutorial
-IOS application 
