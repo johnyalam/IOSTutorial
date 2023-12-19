@@ -19,6 +19,9 @@
 		1D3D7F9D2B1C4A7200BA8D37 /* MusicPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */; };
 		1D3D7F9F2B1C50F000BA8D37 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */; };
 		1D3D7FA12B1C9E0300BA8D37 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */; };
+		1D75DCEA2B324122001F216F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75DCE92B324122001F216F /* DetailEditView.swift */; };
+		1D75DCEE2B324992001F216F /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75DCED2B324992001F216F /* ThemeView.swift */; };
+		1D75DCF02B324C45001F216F /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75DCEF2B324C45001F216F /* ThemePicker.swift */; };
 		1DD2EFCB2B1D297D00B7529D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCA2B1D297D00B7529D /* Theme.swift */; };
 		1DD2EFCD2B1D2A7500B7529D /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCC2B1D2A7500B7529D /* DailyScrum.swift */; };
 		1DD2EFCF2B1D31FF00B7529D /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD2EFCE2B1D31FF00B7529D /* TrailingIconLabelStyle.swift */; };
@@ -65,6 +68,9 @@
 		1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayView.swift; sourceTree = "<group>"; };
 		1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 		1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1D75DCE92B324122001F216F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		1D75DCED2B324992001F216F /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		1D75DCEF2B324C45001F216F /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		1DD2EFCA2B1D297D00B7529D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		1DD2EFCC2B1D2A7500B7529D /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		1DD2EFCE2B1D31FF00B7529D /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
@@ -143,6 +149,9 @@
 				1DF613AA2B2E5FF800C24E01 /* BView.swift */,
 				1DF613AC2B2E600700C24E01 /* CView.swift */,
 				1DF613AE2B2E601600C24E01 /* DView.swift */,
+				1D75DCE92B324122001F216F /* DetailEditView.swift */,
+				1D75DCED2B324992001F216F /* ThemeView.swift */,
+				1D75DCEF2B324C45001F216F /* ThemePicker.swift */,
 			);
 			path = IOSTutorial;
 			sourceTree = "<group>";
@@ -312,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D75DCEE2B324992001F216F /* ThemeView.swift in Sources */,
 				1DF613A92B2E5C4B00C24E01 /* NavigationView.swift in Sources */,
 				1DF613AB2B2E5FF800C24E01 /* BView.swift in Sources */,
 				1D3D7FA12B1C9E0300BA8D37 /* CardView.swift in Sources */,
@@ -323,6 +333,8 @@
 				1DD2EFCF2B1D31FF00B7529D /* TrailingIconLabelStyle.swift in Sources */,
 				1D3D7F722B1C2AC100BA8D37 /* Item.swift in Sources */,
 				1DD2EFCD2B1D2A7500B7529D /* DailyScrum.swift in Sources */,
+				1D75DCEA2B324122001F216F /* DetailEditView.swift in Sources */,
+				1D75DCF02B324C45001F216F /* ThemePicker.swift in Sources */,
 				1D3D7F9B2B1C335500BA8D37 /* VStackHstackView.swift in Sources */,
 				1D3D7F9F2B1C50F000BA8D37 /* InventoryView.swift in Sources */,
 				1D3D7F9D2B1C4A7200BA8D37 /* MusicPlayView.swift in Sources */,
