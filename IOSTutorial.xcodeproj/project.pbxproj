@@ -131,6 +131,9 @@
 		1D3D7F6C2B1C2AC100BA8D37 /* IOSTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D4DF40E2B33984F00152099 /* Theme */,
+				1D4DF40D2B33981200152099 /* Scrum */,
+				1D4DF40C2B33970F00152099 /* Navigation */,
 				1DD2EFC92B1D293000B7529D /* Models */,
 				1D3D7F6D2B1C2AC100BA8D37 /* IOSTutorialApp.swift */,
 				1D3D7F6F2B1C2AC100BA8D37 /* ContentView.swift */,
@@ -141,17 +144,6 @@
 				1D3D7F9A2B1C335500BA8D37 /* VStackHstackView.swift */,
 				1D3D7F9C2B1C4A7200BA8D37 /* MusicPlayView.swift */,
 				1D3D7F9E2B1C50F000BA8D37 /* InventoryView.swift */,
-				1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */,
-				1DD2EFD02B1D359400B7529D /* ScrumsView.swift */,
-				1DD2EFD22B1D3E3700B7529D /* DetailView.swift */,
-				1DF613A62B2E50CA00C24E01 /* AppTabView.swift */,
-				1DF613A82B2E5C4B00C24E01 /* NavigationView.swift */,
-				1DF613AA2B2E5FF800C24E01 /* BView.swift */,
-				1DF613AC2B2E600700C24E01 /* CView.swift */,
-				1DF613AE2B2E601600C24E01 /* DView.swift */,
-				1D75DCE92B324122001F216F /* DetailEditView.swift */,
-				1D75DCED2B324992001F216F /* ThemeView.swift */,
-				1D75DCEF2B324C45001F216F /* ThemePicker.swift */,
 			);
 			path = IOSTutorial;
 			sourceTree = "<group>";
@@ -179,6 +171,38 @@
 				1D3D7F8D2B1C2AC300BA8D37 /* IOSTutorialUITestsLaunchTests.swift */,
 			);
 			path = IOSTutorialUITests;
+			sourceTree = "<group>";
+		};
+		1D4DF40C2B33970F00152099 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1DF613A82B2E5C4B00C24E01 /* NavigationView.swift */,
+				1DF613AC2B2E600700C24E01 /* CView.swift */,
+				1DF613A62B2E50CA00C24E01 /* AppTabView.swift */,
+				1DF613AE2B2E601600C24E01 /* DView.swift */,
+				1DF613AA2B2E5FF800C24E01 /* BView.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		1D4DF40D2B33981200152099 /* Scrum */ = {
+			isa = PBXGroup;
+			children = (
+				1D3D7FA02B1C9E0300BA8D37 /* CardView.swift */,
+				1DD2EFD02B1D359400B7529D /* ScrumsView.swift */,
+				1DD2EFD22B1D3E3700B7529D /* DetailView.swift */,
+				1D75DCE92B324122001F216F /* DetailEditView.swift */,
+			);
+			name = Scrum;
+			sourceTree = "<group>";
+		};
+		1D4DF40E2B33984F00152099 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1D75DCEF2B324C45001F216F /* ThemePicker.swift */,
+				1D75DCED2B324992001F216F /* ThemeView.swift */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 		1DD2EFC92B1D293000B7529D /* Models */ = {

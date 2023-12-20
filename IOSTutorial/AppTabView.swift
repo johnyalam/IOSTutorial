@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct AppTabView: View {
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some View {
         TabView {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: .constant(DailyScrum.sampleData))
                 .tabItem {
                     Label("Scrum", systemImage: "person")
                 }
